@@ -938,7 +938,7 @@
     {"type": "powerup", "shape": 1, "c": [-6.3, 0.25, -5.6], "r": 0.45, "hh": 0.25, "once": true, "stage": 1},
     {"type": "speedpad", "shape": 0, "c": [14, 0.25, -33], "h": [2.5, 0.25, 0.6], "params": {"dir": [0, 0, -1], "speed": 10}, "stage": 2},
     {"type": "strokes", "shape": 1, "c": [2.4, 2.25, -46.6], "r": 0.45, "hh": 0.25, "params": {"add": -1}, "once": true, "stage": 2},
-    {"type": "launcher", "shape": 1, "c": [-16, 2.25, -51.2], "r": 0.6, "hh": 0.25, "params": {"v": [-1.9231, 11.7, -19.4615]}, "stage": 3},
+    {"type": "launcher", "shape": 1, "c": [-16, 2.25, -51.2], "r": 0.6, "hh": 0.25, "params": {"v": [-2.2857, 12.6, -19.5714]}, "stage": 3},
     {"type": "powerup", "shape": 1, "c": [-9, 2.25, -69.5], "r": 0.45, "hh": 0.25, "once": true, "stage": 3}
   ]
 }

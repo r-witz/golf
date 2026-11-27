@@ -34,7 +34,7 @@ export default () => {
   t.plate(roundRect(-21, -80, -7, -66, 3), 2, { open: [[-14, -66, 4]] });
   for (const [x, z] of [[-17.2, -72.5], [-10.8, -72.5], [-14, -71]]) t.post(x, z, 2, 0.42, 0.45, 'bumper'); // barrels
   t.slider(-16.6, -68.4, -15.8, -67.6, 2, 0.5, [4.4, 0], { period: 2.8 }); // a crab at the way in
-  t.cannon(-16, -51.2, 2, [-18.5, 2, -76.5], { T: 1.3 }); // the ship's cannon
+  t.cannon(-16, -51.2, 2, [-19.2, 2, -78.6], { T: 1.4 }); // the ship's cannon: into the far corner, behind the barrels
   t.disc('powerup', -9, -69.5, 0.45, 2, null, { once: true });
   return stages(t, "L'Île au Trésor", [
     { name: 'L’Île au Trésor · 1. La Plage', tee: [0, 0, 1.5], cup: [-4, 0, -26], par: 3, maxStrokes: 10 },

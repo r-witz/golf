@@ -7,7 +7,7 @@ import { hole, roundRect, stages, stage, entry } from '../lib.mjs';
 //    basalt columns before the cup; a power box by the river, the coin in the far corner.
 // 2. L'Obsidienne (par 4): a ramp of volcanic glass up to a terrace: as slippery as ice, too soft
 //    and the ball slides back down, too hard and it bangs round the hairpin at the top. On the terrace
-//    two lava bubbles burst up and sink.
+//    two lava bubbles burst up and sink; a basalt block slides across the top of the ramp.
 // 3. Le Cratère (par 3): from the edge of the terrace a bridge of ash, no wall, a booster on it, over
 //    the void to the crater: the cup at its bottom in a vent that blows a slow ball back, basalt
 //    bumpers on its slopes.
@@ -31,6 +31,7 @@ export default () => {
   t.plate(roundRect(9, -30, 15, -24, 1), 0, { open: [[12, -30, 5]] });
   t.path([12, 0, -30], [0, -1], { width: 5, material: 'ice' }).straight(3).straight(10, { rise: 2 }).straight(2).turn(90, 4).straight(3).done();
   t.plate(roundRect(-4, -55, 5.5, -43, 2), 2, { open: [[5.5, -49, 5]] });
+  t.slider(9.6, -44.4, 10.4, -43.6, 2, 0.5, [4, 0], { period: 2.6 }); // a basalt block across the top of the ramp
   t.mole(1.2, -46.5, 2, { r: 0.5, period: 2.4 }).mole(1.2, -53, 2, { r: 0.5, period: 2.4, phase: 0.5 });
   t.disc('powerup', 3.8, -53.4, 0.45, 2, null, { once: true });
   t.disc('strokes', -2.8, -44.6, 0.45, 2, { add: -1 }, { once: true });

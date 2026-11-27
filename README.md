@@ -2,7 +2,7 @@
 
 Minigolf multijoueur dans le navigateur. Ce dépôt est la **base propre** du jeu, réduite à
 l'essentiel : un serveur Go optimisé, le moteur physique et ses modificateurs (pads, bumpers,
-téléporteurs, zones, obstacles mobiles…), un pool de 38 trous dont deux mondes de plusieurs trous (« Le pool de trous »), des pouvoirs (« Les pouvoirs »), un client
+téléporteurs, zones, obstacles mobiles…), un pool de 35 trous dont deux mondes de plusieurs trous (« Le pool de trous »), des pouvoirs (« Les pouvoirs »), un client
 avec ses écrans d'avant-partie (accueil, salles, salon) et une vue 3D minimale.
 
 Le prototype d'origine (Node) et la première version Go complète (63 cartes, client Three.js)
@@ -409,7 +409,10 @@ celui d'un autre (valeur : le pouvoir). Vérifié par un essai temporaire du mot
 loin, saut par-dessus un mur de 0,45, fantôme qui laisse l'autre balle en place, colle quatre fois plus
 courte, aimant qui fait tomber une balle passée à 1,8 du trou, boulet, échange), puis en jeu dans Edge.
 
-**Le pool de trous** : 38 trous, `maps/p01-*.json` à `maps/p32-*.json` et les six trous des deux mondes (p21 à p32 : les trous à thème festif, ferme,
+**Le pool de trous** : 35 trous, `maps/p01-*.json` à `maps/p37-*.json` et les six trous des deux mondes. Le 2026-11-27, les huit trous
+les plus simples (un tir parfait du départ faisait le trou en un sur un par 3, ou le terrain ramenait seul la balle au trou) ont été
+retirés (p02, p04, p11, p12, p16, p22, p23, p28 : ils sont dans l'historique git), et cinq trous durs ajoutés, p33 à p37 (voir « Les
+trous durs » dans `docs/parcours-v2.md`). Les trous à thème festif, ferme,
 galactique et de Noël, voir « Les trous festifs » dans `docs/parcours-v2.md`), conçus pour 3 à 9 joueurs qui
 tirent en même temps (les balles se cognent). Leurs idées (le niveau, la vedette, la ligne sûre et la
 ligne risquée, ce que le jeu à plusieurs y crée) et leurs mesures sont dans `docs/parcours-v2.md`, les

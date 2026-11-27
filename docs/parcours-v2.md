@@ -173,6 +173,25 @@ Ce que la vérification a fait changer : sur Le Trou Noir, un tourbillon plus fo
 roulement gardait une balle en orbite autour du trou jusqu'au filet de 30 s (d'où `swirl` 1,6) ; sur
 Le Lac Gelé, une balle tirée fort glissait plus de 30 s sur la glace (d'où les bancs de neige).
 
+## Les trous durs (p33 à p37) et les trous retirés (2026-11-27)
+
+Mesuré pour chaque trou : le moins de coups que trouve `tools/verify` (un joueur parfait), la part de 1 800 tirs du départ
+(180 angles × 10 forces) qui font trou en un, et celle qui finit à moins de 3 du trou. Retirés parce que les plus simples :
+Le Grand Entonnoir (5,2 % de trous en un, 12,7 % près du trou), L'Aimant (1,9 % en un), Le Trou Noir (2,2 %), Les Terrasses,
+Le Château Gonflable, Le Flipper, Les Dunes et La Grande Roue (un trou en un possible sur un par 3, des tirs au hasard qui
+finissent près du trou). Ajoutés, aucun trou en un ni tir au hasard près du trou :
+
+| Trou | Thème, par | La vedette | Au mieux |
+| --- | --- | --- | --- |
+| p33 Le Funambule | canyon, 4 | un chemin de 1,8 sans rebord en zigzag au-dessus du vide, un mur au seul extérieur des virages, du vent de travers | 3 |
+| p34 Le Parcours du Combattant | chateau, 4 | une barre qui tourne, des mâchoires qui se ferment à tour de rôle, de la glace, des taupes, du sable, une porte de 1,1 gardée, des bumpers | 3 |
+| p35 La Tour | nuit, 4 | trois étages : un geyser vers le premier (raté, on retombe à l'étage du dessous), une rampe raide de 2 sans rebord vers le dernier, un garde et deux souffleries devant le trou | 2 |
+| p36 Le Glacier | banquise, 4 | une arène de glace trouée de trois trous d'eau, trois bumpers, une soufflerie devant une sortie de 1,4 | 3 |
+| p37 Les Chicanes de Lave | volcan, 5 | un slalom entre quatre bassins de lave, un bumper dans chaque passage, des accélérateurs entre eux | 5 |
+
+Durcis aussi : L'Obsidienne (un bloc de basalte glisse en haut de la rampe) et Le Trésor (le canon pose la balle dans le coin du
+rocher, derrière les tonneaux : 2 coups au mieux au lieu de 1).
+
 ## Ce qu'il faut après
 
 - **Le tirage par niveaux** (serveur) : chaque trou porte son niveau ; une partie de 9 suit un gabarit
